@@ -87,6 +87,24 @@ section{
     }
     
 }
+@media screen and (max-width: 550px){
+    .date{
+        float:none;
+    }
+    .heading{
+     float: none;
+    }
+    #three{
+        display:none;
+        color:white;
+    }
+    #one,#two{
+        display: block;
+        width: 100%;
+        text-align:center;
+    }
+    
+}
 
 #education p {
     display: block;
