@@ -1,0 +1,119 @@
+/* 
+Copyright (c) 2016 David T. Han 
+Homework 1 Responsive Resume CSS
+*/
+body{
+    font-family: Candela, Cooper Hewitt,sans-serif;
+}
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform:uppercase;
+}
+#college{
+    font-weight:bold;
+}
+#college,#collegeloc{
+    display:inline;
+}
+#major{
+    font-style:italic;
+}
+aside{
+    text-align:center;
+    width:100%;
+}
+#one,#two{
+    display:inline;
+}
+
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom:0px;
+}
+
+h3{
+    margin:0px 0px;
+}
+
+h4{
+    font-style:italic;
+    font-weight:bold;
+    margin:0px 0px;
+}
+
+p{
+    margin: 0px 0px;
+}
+
+ul{
+    margin: 0px 0px;
+}
+
+section{
+    padding: 0px 50px;
+}
+.place{
+    font-style:italic;
+}
+h3,.place{
+    display:inline;
+}
+
+.date{
+    float:right;
+    margin: 0px 0px;
+}
+.heading{
+    float:left;
+}
+.extra{
+    clear:left;
+}
+
+
+@media screen and (max-width: 500px) {
+    .date {
+        float:none;
+        
+       
+    }
+    #one,#two{
+       display:block;
+       width:100%;
+       text-align:center;
+    }
+    .heading{
+        float:none;
+    }
+    
+    h2{
+        font-size:120%;
+    }
+    
+}
+/*
+revised media query for when dates interfere with subheadings.
+*/
+
+@media screen and (max-width: 648px) {
+    .date {
+        float:none;
+       
+    }
+    #one,#two{
+       display:block;
+       width:100%;
+       text-align:center;
+    }
+    .heading{
+        float:none;
+    }
+    
+    h2{
+        font-size:120%;
+    }
+    
+}
+   

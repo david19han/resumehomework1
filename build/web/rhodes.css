@@ -1,0 +1,110 @@
+/* Copyright (c) 2015 Jen A. Rhodes 
+Homework 1 Responsive Resume*/
+body{
+    font-family:Candela, Caviar Dreams, sans-serif; 
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+aside{
+    text-align:center;
+}
+
+#one,#two{
+    display: inline;
+}
+
+h2{
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin-bottom:0px;
+    font-size: 119%;
+}
+
+h3{
+    margin:0px 0px;
+}
+
+h4{
+    font-style:italic;
+    font-weight:bold;
+    margin:0px 0px;
+}
+
+.place{
+    font-style: italic;
+    
+}
+
+h3,.place{
+    display:inline;
+}
+
+p{
+    margin: 0px 0px;
+}
+
+ul{
+    margin: 0px 0px;
+}
+
+section{
+    padding: 0px 50px;
+}
+
+
+.date{
+    float:right;
+    margin: 0px 0px;
+}
+
+.heading{
+    float: left;
+}
+
+.extra{
+    clear: left;
+}
+
+@media screen and (max-width: 500px){
+    .date{
+        float:none;
+    }
+    .heading{
+     float: none;
+    }
+    
+    #one,#two{
+        display: block;
+        width: 100%;
+        text-align:center;
+    }
+    
+}
+
+@media screen and (max-width: 690px){
+    .date{
+        float:none;
+    }
+    .heading{
+     float: none;
+    }
+    
+    #one,#two{
+        display: block;
+        width: 100%;
+        text-align:center;
+    }
+    
+}
+
+#education p {
+    display: block;
+}
+
+#internship{
+    color:red;
+}
