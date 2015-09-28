@@ -4,71 +4,54 @@ body{
     font-family:Candela, Caviar Dreams, sans-serif; 
     font-size:75%;
 }
-
 h1{
     text-align: center;
     margin-bottom: 0px;
 }
-
 aside{
     text-align:center;
 }
-
 #one,#two,#three{
     display: inline;
 }
-
 h2{
     text-transform: uppercase;
     text-decoration: underline;
     margin-bottom:0px;
 }
-
 h3{
     margin:0px 0px;
 }
-
 h4{
     font-style:italic;
     font-weight:bold;
     margin:0px 0px;
 }
-
 .place{
-    font-style: italic;
-    
+    font-style: italic;    
 }
-
 h3,.place{
     display:inline;
 }
-
 p{
     margin: 0px 0px;
 }
-
 ul{
     margin: 0px 0px;
 }
-
 section{
     padding: 0px 25px;
 }
-
-
 .date{
     float:right;
     margin: 0px 0px;
 }
-
 .heading{
     float: left;
 }
-
 .extra{
     clear: left;
 }
-
 @media screen and (max-width: 500px){
     .date{
         float:none;
@@ -84,8 +67,14 @@ section{
         display: block;
         width: 100%;
         text-align:center;
-    }
-    
+    }   
+}
+#education p {
+    display: block;
+}
+
+#internship{
+    color:red;
 }
 @media screen and (max-width: 550px){
     .date{
@@ -102,14 +91,5 @@ section{
         display: block;
         width: 100%;
         text-align:center;
-    }
-    
-}
-
-#education p {
-    display: block;
-}
-
-#internship{
-    color:red;
+    }   
 }
