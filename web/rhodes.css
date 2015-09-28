@@ -2,6 +2,7 @@
 Homework 1 Responsive Resume*/
 body{
     font-family:Candela, Caviar Dreams, sans-serif; 
+    font-size:75%;
 }
 
 h1{
@@ -13,7 +14,7 @@ aside{
     text-align:center;
 }
 
-#one,#two{
+#one,#two,#three{
     display: inline;
 }
 
@@ -21,7 +22,6 @@ h2{
     text-transform: uppercase;
     text-decoration: underline;
     margin-bottom:0px;
-    font-size: 119%;
 }
 
 h3{
@@ -52,7 +52,7 @@ ul{
 }
 
 section{
-    padding: 0px 50px;
+    padding: 0px 25px;
 }
 
 
@@ -76,23 +76,10 @@ section{
     .heading{
      float: none;
     }
-    
-    #one,#two{
-        display: block;
-        width: 100%;
-        text-align:center;
+    #three{
+        display:none;
+        color:white;
     }
-    
-}
-
-@media screen and (max-width: 690px){
-    .date{
-        float:none;
-    }
-    .heading{
-     float: none;
-    }
-    
     #one,#two{
         display: block;
         width: 100%;

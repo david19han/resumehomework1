@@ -4,6 +4,7 @@ Homework 1 Responsive Resume CSS
 */
 body{
     font-family: Candela, Cooper Hewitt,sans-serif;
+    font-size: 75%;
 }
 h1{
     text-align: center;
@@ -23,7 +24,7 @@ aside{
     text-align:center;
     width:100%;
 }
-#one,#two{
+#one,#two,#three{
     display:inline;
 }
 
@@ -76,44 +77,22 @@ h3,.place{
 @media screen and (max-width: 500px) {
     .date {
         float:none;
-        
-       
+    }
+    #three{
+        display:none;
+        color:white;
     }
     #one,#two{
-       display:block;
-       width:100%;
-       text-align:center;
+        display:block;
+        width:100%;
+        text-align:center;
     }
     .heading{
         float:none;
     }
-    
-    h2{
-        font-size:120%;
-    }
-    
-}
-/*
-revised media query for when dates interfere with subheadings.
-*/
 
-@media screen and (max-width: 648px) {
-    .date {
-        float:none;
-       
-    }
-    #one,#two{
-       display:block;
-       width:100%;
-       text-align:center;
-    }
-    .heading{
-        float:none;
-    }
-    
     h2{
         font-size:120%;
     }
-    
+
 }
-   
